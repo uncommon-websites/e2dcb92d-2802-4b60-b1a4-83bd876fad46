@@ -6,124 +6,109 @@
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="mb-16">
             <h2 class="text-4xl md:text-5xl font-serif text-gray-900 leading-tight">
-                AI That Learns How Your<br />Firm Thinks and Works
+                Institutional Strategy,<br />Individual Access
             </h2>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <!-- Integrations -->
+            <!-- Tax-Advantaged -->
             <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
-                <h3 class="text-lg font-serif text-gray-900 mb-8">Integrations</h3>
-                <div class="flex-1 flex items-center justify-center mb-8">
-                    <div class="grid grid-cols-3 gap-4">
-                        {#each [1, 2, 3, 4, 5, 6] as i}
-                            <div class="h-10 w-10 bg-white rounded-full shadow-sm flex items-center justify-center text-gray-400">
-                                <div class="h-4 w-4 bg-gray-200 rounded-sm"></div>
-                            </div>
-                        {/each}
-                    </div>
-                </div>
-                <p class="text-xs text-gray-500 leading-relaxed mt-auto">
-                    Connect seamlessly with your existing providers and file systems. Enhance your workflows by interacting with internal & external data sources.
-                </p>
-            </div>
-
-            <!-- Prompt Library -->
-            <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
-                <h3 class="text-lg font-serif text-gray-900 mb-8">Prompt Library</h3>
-                <div class="flex-1 flex items-center justify-center mb-8">
-                    <div class="bg-white p-4 rounded shadow-sm w-full max-w-[200px] space-y-2">
-                        <div class="h-2 bg-gray-100 rounded w-1/3 mb-4"></div>
-                        {#each [1, 2, 3, 4, 5] as i}
-                            <div class="flex items-center gap-2">
-                                <div class="h-2 w-2 rounded-full bg-gray-200"></div>
-                                <div class="h-1.5 bg-gray-100 rounded w-3/4"></div>
-                            </div>
-                        {/each}
-                    </div>
-                </div>
-                <p class="text-xs text-gray-500 leading-relaxed mt-auto">
-                    Choose from our library of professionally written prompts aimed at automating your common workflows end-to-end.
-                </p>
-            </div>
-
-            <!-- Guided Implementation -->
-            <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
-                <h3 class="text-lg font-serif text-gray-900 mb-8">Guided Implementation</h3>
-                <div class="flex-1 flex items-center justify-center mb-8">
-                    <div class="flex -space-x-2">
-                        <div class="h-10 w-10 rounded-full bg-blue-100 border-2 border-white flex items-center justify-center text-blue-600 text-xs">A</div>
-                        <div class="h-10 w-10 rounded-full bg-green-100 border-2 border-white flex items-center justify-center text-green-600 text-xs">B</div>
-                        <div class="h-10 w-10 rounded-full bg-purple-100 border-2 border-white flex items-center justify-center text-purple-600 text-xs">C</div>
-                    </div>
-                </div>
-                <p class="text-xs text-gray-500 leading-relaxed mt-auto">
-                    White-glove engagement and implementation with our team of ex-bankers and private equity investors.
-                </p>
-            </div>
-
-            <!-- Custom-Trained Models -->
-            <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
-                <h3 class="text-lg font-serif text-gray-900 mb-8">Custom-Trained Models</h3>
+                <h3 class="text-lg font-serif text-gray-900 mb-8">Tax-Advantaged</h3>
                 <div class="flex-1 flex items-center justify-center mb-8">
                     <div class="relative">
-                        <!-- Tree structure visualization -->
-                        <div class="flex justify-center gap-4 mb-4">
-                            <div class="h-6 w-6 border border-gray-300 bg-white rounded-sm"></div>
-                            <div class="h-6 w-6 border border-gray-300 bg-white rounded-sm"></div>
-                            <div class="h-6 w-6 border border-gray-300 bg-white rounded-sm"></div>
-                        </div>
-                        <div class="flex justify-center mb-4">
-                            <div class="h-8 w-px bg-gray-300"></div>
-                        </div>
-                        <div class="flex justify-center">
-                            <div class="h-8 w-8 bg-[#0B231E] rounded flex items-center justify-center text-white text-xs">AI</div>
-                        </div>
-                    </div>
-                </div>
-                <p class="text-xs text-gray-500 leading-relaxed mt-auto">
-                    Custom-trained LLMs built for finance, using professionally labeled data tailored to the workflows and precision standards of investment banking.
-                </p>
-            </div>
-
-            <!-- Governance & Permissions -->
-            <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
-                <h3 class="text-lg font-serif text-gray-900 mb-8">Governance & Permissions</h3>
-                <div class="flex-1 flex items-center justify-center mb-8">
-                    <div class="bg-white p-4 rounded shadow-sm w-full max-w-[200px]">
-                        <div class="flex justify-between mb-4">
-                            <div class="text-[10px] font-bold">122</div>
-                            <div class="text-[10px] font-bold">2.14</div>
-                        </div>
-                        <div class="space-y-2">
-                            <div class="h-px bg-gray-100 w-full"></div>
-                            <div class="h-1.5 bg-gray-100 rounded w-1/2"></div>
-                            <div class="h-1.5 bg-gray-100 rounded w-3/4"></div>
-                            <div class="h-1.5 bg-gray-100 rounded w-2/3"></div>
-                        </div>
-                    </div>
-                </div>
-                <p class="text-xs text-gray-500 leading-relaxed mt-auto">
-                    Granular permission controls, role-based access management, comprehensive audit trails, and customizable governance policies to streamline compliance and safeguard your data.
-                </p>
-            </div>
-
-            <!-- Single Tenant Deployment -->
-            <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
-                <h3 class="text-lg font-serif text-gray-900 mb-8">Single Tenant Deployment</h3>
-                <div class="flex-1 flex items-center justify-center mb-8">
-                    <div class="grid grid-cols-3 gap-1">
-                        {#each [1, 2, 3, 4, 5, 6, 7, 8, 9] as i}
-                            <div class={`h-8 w-8 border border-gray-200 ${i === 5 ? 'bg-[#0B231E] flex items-center justify-center' : 'bg-white'}`}>
-                                {#if i === 5}
-                                    <div class="h-2 w-2 bg-white rounded-full"></div>
-                                {/if}
+                        <div class="h-24 w-24 rounded-full border-4 border-gray-200 flex items-center justify-center">
+                            <div class="text-center">
+                                <div class="text-2xl font-bold text-gray-900">60/40</div>
+                                <div class="text-[10px] text-gray-500">Split</div>
                             </div>
-                        {/each}
+                        </div>
                     </div>
                 </div>
                 <p class="text-xs text-gray-500 leading-relaxed mt-auto">
-                    Flexible deployment options to meet your security and infrastructure needs.
+                    Section 1256 treatment provides 60% long-term, 40% short-term capital gains split. Interest treated as capital loss for unlimited offset potential.
+                </p>
+            </div>
+
+            <!-- No Custodial Fees -->
+            <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
+                <h3 class="text-lg font-serif text-gray-900 mb-8">No Custodial Fees</h3>
+                <div class="flex-1 flex items-center justify-center mb-8">
+                    <div class="relative">
+                        <div class="text-6xl font-serif text-gray-900">$0</div>
+                    </div>
+                </div>
+                <p class="text-xs text-gray-500 leading-relaxed mt-auto">
+                    Direct box spread execution removes custodial intermediary fees. You pay only SOFR + 0.5%, not the higher rates charged by traditional pledged asset lines.
+                </p>
+            </div>
+
+            <!-- CPA Validated -->
+            <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
+                <h3 class="text-lg font-serif text-gray-900 mb-8">CPA Validated</h3>
+                <div class="flex-1 flex items-center justify-center mb-8">
+                    <div class="flex -space-x-2">
+                        <div class="h-12 w-12 rounded-full bg-primary-100 border-2 border-white flex items-center justify-center text-primary-600 text-xs font-bold">CPA</div>
+                        <div class="h-12 w-12 rounded-full bg-primary-200 border-2 border-white flex items-center justify-center text-primary-700 text-xs font-bold">CPA</div>
+                        <div class="h-12 w-12 rounded-full bg-primary-300 border-2 border-white flex items-center justify-center text-primary-800 text-xs font-bold">CPA</div>
+                    </div>
+                </div>
+                <p class="text-xs text-gray-500 leading-relaxed mt-auto">
+                    Our tax strategy is validated by certified CPAs, giving wealth advisors confidence to recommend Kubence to their high-net-worth clients.
+                </p>
+            </div>
+
+            <!-- Regulated Exchanges -->
+            <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
+                <h3 class="text-lg font-serif text-gray-900 mb-8">Regulated Exchanges</h3>
+                <div class="flex-1 flex items-center justify-center mb-8">
+                    <div class="relative">
+                        <div class="grid grid-cols-2 gap-3">
+                            <div class="h-12 w-12 border-2 border-gray-300 bg-white rounded flex items-center justify-center text-[10px] font-bold text-gray-600">CME</div>
+                            <div class="h-12 w-12 border-2 border-gray-300 bg-white rounded flex items-center justify-center text-[10px] font-bold text-gray-600">OCC</div>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-xs text-gray-500 leading-relaxed mt-auto">
+                    Box spreads executed on CME Group and cleared through Options Clearing Corporation, providing institutional-grade oversight and transparency.
+                </p>
+            </div>
+
+            <!-- 50+ Years Proven -->
+            <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
+                <h3 class="text-lg font-serif text-gray-900 mb-8">50+ Years Proven</h3>
+                <div class="flex-1 flex items-center justify-center mb-8">
+                    <div class="bg-white p-4 rounded shadow-sm">
+                        <div class="text-center mb-2">
+                            <div class="text-xs text-gray-500">Since</div>
+                            <div class="text-3xl font-serif text-gray-900">1970s</div>
+                        </div>
+                        <div class="flex items-center gap-2 text-[10px] text-gray-400">
+                            <div class="h-px bg-gray-200 flex-1"></div>
+                            <span>to</span>
+                            <div class="h-px bg-gray-200 flex-1"></div>
+                        </div>
+                        <div class="text-center mt-2">
+                            <div class="text-3xl font-serif text-gray-900">2025</div>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-xs text-gray-500 leading-relaxed mt-auto">
+                    Box spread strategy has been used by hedge funds, family offices, and institutional investors for over five decades, providing proven market validation.
+                </p>
+            </div>
+
+            <!-- Transparent Pricing -->
+            <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
+                <h3 class="text-lg font-serif text-gray-900 mb-8">Transparent Pricing</h3>
+                <div class="flex-1 flex items-center justify-center mb-8">
+                    <div class="text-center">
+                        <div class="text-xs text-gray-500 mb-2">Current Rate</div>
+                        <div class="text-4xl font-serif text-gray-900 mb-1">4-6%</div>
+                        <div class="text-xs text-gray-400">SOFR + 0.5%</div>
+                    </div>
+                </div>
+                <p class="text-xs text-gray-500 leading-relaxed mt-auto">
+                    Simple, transparent pricing tied to SOFR (Secured Overnight Financing Rate), the benchmark used by institutional investors worldwide.
                 </p>
             </div>
         </div>
